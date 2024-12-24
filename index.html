@@ -13,9 +13,9 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
+                <!-- <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#skills">Skills</a></li> -->
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
@@ -30,9 +30,9 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About </a></li>
-                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <!-- <li><a href="#education" onclick="toggleMenu()">Education</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li> -->
                 <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
             </div>
         </div>
@@ -47,8 +47,8 @@
             <h1 class="title">Frank Diaz</h1>
             <p class="section__text__p2">Aspiring Software Developer</p>
             <div class="btn-container">
-                 <button class="btn btn-color-2" onclick="window.open('./assets/Francisco Diaz - Resume.pdf')">View CV</button>
-                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                 <button class="btn btn-color-1" onclick="window.open('./assets/Francisco Diaz - Resume.pdf')">View CV</button>
+                 <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin-logo.png" alt="My Linkedin Profile"
@@ -59,6 +59,83 @@
             </div>
         </div>
     </section>
+    <section id="about">
+        <p class="about__text__p1">Get To Know More</p>
+        <h1 class="about-title">About Me</h1>
+        <div class="section-container">
+            <div class="about__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-containers">
+                <div class="about-details-container">
+                    <div class="left-detail">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience Icon" class="icon">
+                        </div>
+                        <div class="about-details-text">
+                            <h3 class="left-text1">Degree</h3>
+                            <p class="left-text2">Bachelor's</p>
+                            <p class="left-text3">Computer Science</p>
+                        </div>
+                    </div>
+                    <div class="right-detail">
+                        <div class="details-container">
+                            <img src="/assets/education.png" alt="Education Icon" class="icon">
+                        </div>
+                        <div class="about-details-text">
+                            <h3 class="right-text1">Additional</h3>
+                            <p class="right-text2">Minor Degree</p>
+                            <p class="right-text3">Project Management</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am a future Software Developer majoring in Computer Science and 
+                        Project Management at FIU. I have an Associate's Degree from MDC
+                        as well. I am in the lookout for an internship. I graduate in 
+                        December of 2025.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow" class="arrow-icon" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <div class="contact-containers">
+            <p class="about__text__p1">Let's Get In Touch</p>
+            <h1 class="about-title">Contact Me</h1>
+            <div class="contact-info-container">
+                <div class="left-contact">
+                    <img src="./assets/contact.png" alt="Email Me Icon" 
+                    class="icon"
+                    onclick="location.href='mailto:fmdiaz1802@gmail.com'">
+                    <p class="left-contact-text">fmdiaz1802@gmail.com</p>
+                </div>
+                <div class="right-contact">
+                    <img src="./assets/linkedin-logo.png" alt="Linkedin Icon" 
+                    class="icon"
+                    onclick="location.href= 'https://www.linkedin.com/in/frankdiazprogramming'">
+                    <p class="right-contact-text">LinkedIn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li> -->
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>
+            Copyright &#169; 2024 Francisco Diaz. All Rights Reserved.
+        </p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
