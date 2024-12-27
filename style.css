@@ -121,6 +121,7 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
+    background-color: transparent;
 }
 
 .side-menu-icon.open span:first-child {
