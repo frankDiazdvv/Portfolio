@@ -84,6 +84,36 @@
         margin-bottom: 0;
     }
 
+    #projects {
+        height: 100vh;
+    }
+
+    .project-one-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: ;
+        grid-template-areas: 
+            'proj-pics'
+            'overview'
+            'proj-links';
+        
+        gap: 2rem;
+    }
+
+    .project-one-container img {
+        position:static;
+    }
+
+    .project-one-container .overlap-images {
+        display: block;
+    }
+
+    .project-one-container .top-img,
+    .project-one-container .bttom-img {
+        z-index: 0;
+        top: 0;
+        right: 0;
+    }
+
     footer nav{
         height: fit-content;
         margin-bottom: 2rem;

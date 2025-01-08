@@ -72,6 +72,7 @@ a:hover {
     display: none;
 }
 
+
 .side-menu {
     position: relative;
     display: inline-block;
@@ -251,19 +252,22 @@ section {
     width: 8rem;
 }
 
-.btn-color-1, .btn-color-2 {
+.btn-color-1, .btn-color-2,
+.todo-link-btn, .todo-git-btn {
     border-color:rgb(53, 53, 53) ;
     cursor: pointer;
 }
 
-.btn-color-1:hover, .btn-color-2:hover {
+.btn-color-1:hover, .btn-color-2:hover,
+.todo-link-btn:hover, .todo-git-btn:hover {
     background-color: black;
 }
 .btn-color-2 {
     background-color: rgb(53, 53, 53)
 }
 
-.btn-color-1:hover, .btn-color-2 {
+.btn-color-1:hover, .btn-color-2,
+.todo-link-btn:hover, .todo-git-btn:hover {
     color: white;
 }
 
@@ -275,15 +279,15 @@ section {
     margin-top: 5rem;
 }
 
-.about__text__p1, .about-title {
+.about__text__p1, .general-title {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.about-title {
+.general-title {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;        
     font-weight: 500;
 
 }
@@ -395,6 +399,65 @@ section {
 
 .left-contact-text:hover, .right-contact-text:hover {
     cursor:default;
+}
+
+
+/* PROJECTS */
+.project-name {
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.project-one-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        'proj-pics overview'
+        'proj-pics proj-links';
+}
+
+.project-one-container .overlap-images{
+    grid-area: proj-pics;
+    /* border: 1px solid black; */
+}
+
+.project-one-container .overlap-images .top-img {
+    z-index: 2;
+    top: 12px;
+    right: 12px;
+}
+.project-one-container .overlap-images .bttom-img {
+    z-index: 1;
+    top: -50px;
+    right: -30px;
+}
+
+.project-one-container img {
+    height: 16vw;
+    width: 33vw;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+    box-shadow: 5px 5px 10px;
+}
+
+.project-overview {
+    grid-area: overview;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+}
+
+.project-links {
+    grid-area: proj-links;
+    justify-self: center;
+    align-self:baseline;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
 }
 
 /* FOOTER */

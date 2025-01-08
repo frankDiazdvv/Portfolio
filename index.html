@@ -13,8 +13,8 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <!-- <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <!-- <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li> -->
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
@@ -30,8 +30,8 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About </a></li>
-                <!-- <li><a href="#education" onclick="toggleMenu()">Education</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <!-- <li><a href="#education" onclick="toggleMenu()">Education</a></li>
                 <li><a href="#skills" onclick="toggleMenu()">Skills</a></li> -->
                 <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
             </div>
@@ -61,7 +61,7 @@
     </section>
     <section id="about">
         <p class="about__text__p1">Get To Know More</p>
-        <h1 class="about-title">About Me</h1>
+        <h1 class="general-title about-title">About Me</h1>
         <div class="section-container">
             <div class="about__pic-container">
                 <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
@@ -80,7 +80,7 @@
                     </div>
                     <div class="right-detail">
                         <div class="details-container">
-                            <img src="./assets/education.png" alt="Education Icon" class="icon">
+                            <img src="/assets/education.png" alt="Education Icon" class="icon">
                         </div>
                         <div class="about-details-text">
                             <h3 class="right-text1">Additional</h3>
@@ -98,12 +98,31 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow" class="arrow-icon" onclick="location.href='./#contact'">
+    </section>
+    <section id="projects">
+        <h1 class="general-title projects-title">Recent Projects</h1>
+        <h3 class="project-name">To-Do List Web App</h3>
+        <div class="project-one-container">
+            <div class="overlap-images">
+                <img src="./assets/to-do-project.png" alt="to-do-project" class="top-img">
+                <img src="./assets/to-do-project-labels.png" alt="to-do-project-labels" class="bttom-img">
+            </div>
+            <p class="project-overview">
+                This Web Development project encapsulates my growing web development
+                 skills. It is a To-Do list web application in which the user can Add, Mark 
+                 Done, Delete and view their tasks ordered by priorities. The main objective 
+                 of this project was to work on code reusability.
+            </p>
+            <div class="project-links">
+                <button class="btn todo-link-btn" onclick="location.href='https://frankdiazdvv.github.io/To-Do-List-Project/'">Project Link</button>
+                <button class="btn todo-git-btn" onclick="location.href='https://github.com/frankDiazdvv/To-Do-List-Project.git'">GitHub Code</button>
+            </div>
+        </div>
     </section>
     <section id="contact">
         <div class="contact-containers">
             <p class="about__text__p1">Let's Get In Touch</p>
-            <h1 class="about-title">Contact Me</h1>
+            <h1 class="general-title contact-me-title">Contact Me</h1>
             <div class="contact-info-container">
                 <div class="left-contact">
                     <img src="./assets/contact.png" alt="Email Me Icon" 
@@ -125,8 +144,8 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#education">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li> -->
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
