@@ -77,18 +77,21 @@
 @media screen and (max-width: 600px) {
     #contact {
         height: 40vh;
+        margin: 50vh 0 30vh 0;
+        
     }
 
     #profile {
         height: 83vh;
-        margin-bottom: 0;
+        margin-bottom: 5rem;
     }
 
     #projects {
         height: 83vh;
+        margin-top: 5rem;
     }
 
-    .project-one-container {
+    .project-container {
         grid-template-columns: 1fr;
         grid-template-rows: ;
         grid-template-areas: 
@@ -99,16 +102,16 @@
         gap: 2rem;
     }
 
-    .project-one-container img {
+    .project-container img {
         position:static;
     }
 
-    .project-one-container .overlap-images {
+    .project-container .overlap-images {
         display: block;
     }
 
-    .project-one-container .top-img,
-    .project-one-container .bttom-img {
+    .project-container .top-img,
+    .project-container .bttom-img {
         z-index: 0;
         top: 0;
         right: 0;

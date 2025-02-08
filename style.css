@@ -151,7 +151,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: auto;
     margin: 0 5rem;
     box-sizing: border-box;
     min-height: fit-content; 
@@ -365,7 +365,7 @@ section {
 
 
 .contact-containers {
-    height: 100%;
+    height: 80vh;
     align-content: center;
 }
 
@@ -408,7 +408,7 @@ section {
     margin-top: 5vw;
 }
 
-.project-one-container {
+.project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -417,23 +417,23 @@ section {
         'proj-pics proj-links';
 }
 
-.project-one-container .overlap-images{
+.project-container .overlap-images{
     grid-area: proj-pics;
     /* border: 1px solid black; */
 }
 
-.project-one-container .overlap-images .top-img {
+.project-container .overlap-images .top-img {
     z-index: 2;
     top: 12px;
     right: 12px;
 }
-.project-one-container .overlap-images .bttom-img {
+.project-container .overlap-images .bttom-img {
     z-index: 1;
     top: -50px;
     right: -30px;
 }
 
-.project-one-container img {
+.project-container img {
     height: 16vw;
     width: 33vw;
     border-radius: 20px;
