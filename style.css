@@ -277,6 +277,7 @@ section {
 #about {
     position:relative;
     margin-top: 5rem;
+    padding-bottom: 10rem;
 }
 
 .about__text__p1, .general-title {
@@ -361,8 +362,6 @@ section {
 
 
 /* CONTACT ME */
-
-
 
 .contact-containers {
     height: 80vh;
