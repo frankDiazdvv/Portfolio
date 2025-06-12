@@ -295,13 +295,13 @@ section {
 
 .section-container {
     display: flex;
-    gap: 5rem;
+    gap: 4rem;
 }
 
 .about__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     align-items: center;
     justify-content: center;
 }
