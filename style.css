@@ -15,7 +15,7 @@ html {
     scroll-behavior: smooth;
 }
 
-p {
+p, li, h4 {
     color: rgb(85, 85, 85);
 }
 
@@ -405,6 +405,7 @@ section {
 .project-name {
     text-align: center;
     margin-top: 5vw;
+    padding-bottom: 1rem;
 }
 
 .project-container {
@@ -446,6 +447,31 @@ section {
     justify-self: center;
     align-self: center;
     width: 100%;
+}
+
+.project-overview-div {
+    grid-area: overview;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+}
+
+.project-overview-p {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+}
+
+.project-overview-ul {
+    padding-left: 2rem;
+}
+
+.project-date {
+    padding: 1rem 0 0 0;
+}
+
+.project-overview-h4{
+    padding: 1rem 0 0 0;
 }
 
 .project-links {
