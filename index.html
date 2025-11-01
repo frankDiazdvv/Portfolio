@@ -14,8 +14,8 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <!-- <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li> -->
+                <li><a href="#experience">Experience</a></li>
+                <!-- <li><a href="#skills">Skills</a></li> -->
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
@@ -31,8 +31,8 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About </a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <!-- <li><a href="#education" onclick="toggleMenu()">Education</a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li> -->
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <!-- <li><a href="#skills" onclick="toggleMenu()">Skills</a></li> -->
                 <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
             </div>
         </div>
@@ -40,11 +40,11 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src = "./assets/profile-pic.png" alt="Frank Diaz Profile Pic">
+            <img src = "./assets/profile-pic.png" alt="Francisco Diaz Profile Pic">
         </div>
         <div class = "section">
-            <p class="section__text__p1">Hello, I am</p>
-            <h1 class="title">Frank Diaz</h1>
+            <p class="section__text__p1">Hello, Im</p>
+            <h1 class="title">Francisco Diaz</h1>
             <p class="section__text__p2">Full Stack Software Developer</p>
             <div class="btn-container">
                  <button class="btn btn-color-1" onclick="window.open('./assets/Francisco Diaz - Resume.pdf')">View CV</button>
@@ -104,11 +104,33 @@
             </div>
         </div>
     </section>
-    <section id="projects">
-        <h1 class="general-title projects-title">Recent Projects</h1>
+    <section id="experience">
+        <h1 class="general-title experience-title">Work Experience</h1>
+
+        <div class="exp-logo-container">
+            <img class="exp-logo" src="assets/48in48_logo.png" alt="48in48 logo">
+            <img src="assets/1MORE - Logo.png" alt="1More Fitness">
+            <img class="exp-logo" src="assets/fiu_logo.png" alt="fiu logo">
+            <img class="exp-logo" src="assets/LT_logo.png" alt="LITE Trainer Logo">
+            <img class="exp-logo" src="assets/skyground_logo.png" alt="skyground videos logo">
+            <img class="exp-logo" src="assets/init_fiu_logo.jpeg" alt="INIT FIU Logo">
+            <img class="exp-logo" src="assets/fiverr_logo.png" alt="fiverr logo">
+        </div>
 
         <!-- SaaS CMS Coach Fitness -->
-        <h3 class="project-name">LITE Trainer Coaching - Full Stack Fitness Coaching Software</h3>
+        <h3 class="project-name experience-subtitle">Check out my resume to see my most recent work</h3>
+
+        <div class="resume-btn-container">
+            <button class="btn btn-color-3" onclick="window.open('./assets/Francisco Diaz - Resume.pdf')">My Resume</button>
+        </div>
+        
+        
+    </section>
+    <section id="projects">
+        <h1 class="general-title projects-title">Relevant Projects</h1>
+
+        <!-- SaaS CMS Coach Fitness -->
+        <h3 class="project-name">LITE Trainer Coaching - Full Stack Fitness Coaching Software (www.litetrainer.com)</h3>
         <div class="project-container">
             <div class="overlap-images">
                 <img src="./assets/cms-coach-dashboard.png" alt="to-do-project" class="top-img">
@@ -116,9 +138,9 @@
             </div>
             <div class="project-overview-div">
                 <p class="project-overview-p">
-                    This is a real-world SaaS application that allows fitness coaches to manage their
+                    This is a real-world Coaching Software that allows fitness coaches to manage their
                     clients with ease. It was built with a focus on simplicity, affordability, and 
-                    scalability, targeting beginner online and in-person coaches.
+                    scalability, targeting beginner online and in-person coaches. It is currently live on the internet and slowly growing.
                 </p>
                 <h4 class="project-overview-h4">Key Features:</h4>
                 <ul class="project-overview-ul">
@@ -155,8 +177,8 @@
                 <img src="./assets/recipe-details.png" alt="to-do-project-labels" class="bttom-img">
             </div>
             <p class="project-overview">
-                My full-stack recipe application, built with vanilla JavaScript, Node.js,
-                Express, MongoDB, and Google Firebase, allows users to create accounts, 
+                This is a Full-Stack Recipe Handler application, built with vanilla JavaScript, Node.js,
+                Express, MongoDB, and Google Firebase(media handling), allows users to create accounts, 
                 manage their own recipes, and upload images. Featuring JWT-based authentication
                 with hashed passwords for secure user access, the app stores user and recipe
                 data in MongoDB and images in Firebase. The front end, crafted with vanilla
@@ -168,25 +190,6 @@
             </p>
             <div class="project-links">
                 <button class="btn todo-git-btn" onclick="location.href='https://github.com/frankDiazdvv/recipie-fullStack-app'">GitHub Code</button>
-            </div>
-        </div>
-        <h3 class="project-name">To-Do List Web App</h3>
-        <div class="project-container">
-            <div class="overlap-images">
-                <img src="./assets/to-do-project.png" alt="to-do-project" class="top-img">
-                <img src="./assets/to-do-project-labels.png" alt="to-do-project-labels" class="bttom-img">
-            </div>
-            <p class="project-overview">
-                This Web Development project encapsulates my growing web development
-                 skills. It is a To-Do list web application in which the user can Add, Mark 
-                 Done, Delete and view their tasks ordered by priorities. The main objective 
-                 of this project was to work on code reusability.
-                 The project is built using HTML, CSS, and JavaScript.
-                 <br><b>January, 2025</b>
-            </p>
-            <div class="project-links">
-                <button class="btn todo-link-btn" onclick="location.href='https://frankdiazdvv.github.io/To-Do-List-Project/'">Project Link</button>
-                <button class="btn todo-git-btn" onclick="location.href='https://github.com/frankDiazdvv/To-Do-List-Project.git'">GitHub Code</button>
             </div>
         </div>
         <h3 class="project-name">Contacts RESTful API</h3>
@@ -207,6 +210,26 @@
                 <button class="btn todo-git-btn" onclick="location.href='https://github.com/frankDiazdvv/recipie-fullStack-app'">GitHub Code</button>
             </div>
         </div>
+        <h3 class="project-name">To-Do List Web App</h3>
+        <div class="project-container">
+            <div class="overlap-images">
+                <img src="./assets/to-do-project.png" alt="to-do-project" class="top-img">
+                <img src="./assets/to-do-project-labels.png" alt="to-do-project-labels" class="bttom-img">
+            </div>
+            <p class="project-overview">
+                This Web Development project encapsulates my growing web development
+                 skills. It is a To-Do list web application in which the user can Add, Mark 
+                 Done, Delete and view their tasks ordered by priorities. The main objective 
+                 of this project was to work on code reusability.
+                 The project is built using HTML, CSS, and JavaScript.
+                 <br><b>January, 2025</b>
+            </p>
+            <div class="project-links">
+                <button class="btn todo-link-btn" onclick="location.href='https://frankdiazdvv.github.io/To-Do-List-Project/'">Live Link</button>
+                <button class="btn todo-git-btn" onclick="location.href='https://github.com/frankDiazdvv/To-Do-List-Project.git'">GitHub Code</button>
+            </div>
+        </div>
+        
     </section>
     <section id="contact">
         <div class="contact-containers">

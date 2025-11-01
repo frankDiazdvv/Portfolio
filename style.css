@@ -171,6 +171,10 @@ section {
     height: 70vh;
 }
 
+#projects {
+    margin-bottom: 8rem;
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;
@@ -213,6 +217,40 @@ section {
 }
 
 
+/* EXPERIENCE SECTION */
+
+#experience {
+    margin: 4rem 0 20rem 0;
+}
+
+.exp-logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.exp-logo {
+    max-height: 4rem;
+}
+
+
+.experience-subtitle{
+    font-weight: 500;
+}
+
+
+.resume-btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+
+
 #socials-container {
     display: flex;
     justify-content: flex-start;
@@ -252,13 +290,13 @@ section {
     width: 8rem;
 }
 
-.btn-color-1, .btn-color-2,
+.btn-color-1, .btn-color-2, .btn-color-3,
 .todo-link-btn, .todo-git-btn {
     border-color:rgb(53, 53, 53) ;
     cursor: pointer;
 }
 
-.btn-color-1:hover, .btn-color-2:hover,
+.btn-color-1:hover, .btn-color-2:hover, .btn-color-3:hover,
 .todo-link-btn:hover, .todo-git-btn:hover {
     background-color: black;
 }
@@ -266,9 +304,13 @@ section {
     background-color: rgb(53, 53, 53)
 }
 
-.btn-color-1:hover, .btn-color-2,
+.btn-color-1:hover, .btn-color-2, .btn-color-3:hover,
 .todo-link-btn:hover, .todo-git-btn:hover {
     color: white;
+}
+
+.btn-color-3 {
+    font-size: medium;
 }
 
 
